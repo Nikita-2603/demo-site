@@ -1,4 +1,4 @@
-html, body {
+html,body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -36,12 +36,11 @@ html, body {
 .btn {
     background-color: #0077C0;
     border: none;
-    padding: 15px 15px;
+    padding: 15px 10px;
     border-radius: 15px;
-    color: rgb(85, 29, 29);
     text-transform: capitalize;
-    row-gap: 50px;
-    border-spacing: 30px;
+    color: white;
+    margin: 5px 0;
 }
 
 .right {
@@ -110,27 +109,17 @@ html, body {
 
 }
 
-.content1 {
-
-    justify-content: center;
-}
-
-.content2 {
-    justify-content: center;
-}
-
-.content3 {
-    justify-content: center;
-}
-
 .cards-items {
     padding: 14px 0;
 }
 
 .content-card {
     display: flex;
-    flex-direction: column;
     row-gap: 10px;
+    flex-wrap: wrap;
+    width: 40%;
+    column-gap: 20;
+
 }
 
 .benefits {
@@ -141,7 +130,9 @@ html, body {
 
 .benefits .heading {
     font-size: 16px;
+    margin: 14px 0;
 }
+
 
 .benefits .sub-heading {
     font-size: 48px;
@@ -166,7 +157,6 @@ html, body {
 
 .benefits .title {
     padding: 13px 0px;
-    font-style: SF Pro Display;
     font-size: larger;
     font-weight: bold;
 }
@@ -176,9 +166,7 @@ html, body {
     padding: 14px 0;
 }
 
-.cards-items {
-    padding: 14px 0;
-}
+
 
 .cards {
     padding: 30px 0;
@@ -186,19 +174,19 @@ html, body {
 
 }
 
-.container .pra {
+.content-card .pra {
     display: flex;
-    font-size: 180%;
+    font-size: 100%;
     font-style: SF Pro Display;
     font-weight: bold;
-    
+
 
 }
 
 .cards .numbers {
-    border-radius: 90px;
+    border-radius: 70px;
     background-color: #0077C0;
-    
+
 }
 
 .cards .steps {
@@ -216,21 +204,24 @@ html, body {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    
+
+}
+
+.cards .cards-wrapper {
+    display: flex;
+    column-gap: 25%;
+
+}
+
+.last {
+    margin: 90px 0;
 }
 
 .last .last-wrapper {
     background-color: #0077C0;
     padding: 10px 50px 0 50px;
     display: flex;
-}
-
-.last .last-wrapper .image-wrapper {
-    width: 250px;
-}
-
-.last .last-wrapper .image-wrapper img {
-    width: 100%;
+    column-gap: 20%;
 }
 
 .last .title {
@@ -238,41 +229,31 @@ html, body {
     font-style: SF Pro Display;
     font-size: 60%;
     padding: 12px 0;
-    
+
 }
 
 .last .caption {
     color: white;
     font-weight: bold;
-    font-size: 180%;
-    padding: 14px 0;
+    font-size: 170%;
+    padding: 12px 0;
 }
 
 .last .btn {
     background-color: white;
-    color:#0077C0;
-    box-shadow: 1px 1px 1px 2px;
+    color: #0077C0;
+    box-shadow: 1px 1px 1px 1px;
     border-radius: 20px;
-    
+
 }
 
 .social .company {
     display: flex;
+
 }
 
-.cards .cards-wrapper {
-    display: flex;
-    column-gap: 50px;
-}
-
-.banner1 {
-    background-color: #C7EEFf;
-    height: 284.4444580078125px;
-
-    left: 0px;
-    top: 1094.22216796875px;
-    border-radius: 0px;
-
+.banner1 .get-started-btn {
+    padding: 13px 0;
 }
 
 .hero-image-wrapper {
@@ -281,64 +262,68 @@ html, body {
     justify-content: space-between;
 }
 
-.rating .reveiw {
+.rating .review1 {
     height: 120%;
     width: 150%;
+    text-align: center;
+    font-weight: bold;
+
 
 }
-
 
 .rating .review-wrapper {
     display: flex;
+    flex-wrap: wrap;
+
+
+
 }
 
 .rating .review-wrapper .review {
-    width: 33%;
+    width: 26%;
 }
 
-.rating .review-wrapper .review img{
+.rating .review-wrapper .review img {
     width: 100%;
 }
 
 
-.company
- {
-    background-color: black ;
-    height: 400px;
-    padding: 60px  0;
-    margin: 50px 0px;
+.company {
+    background-color: black;
+    padding: 15px 0;
 }
 
 
 
-.social-links img
-{
+.social-links img {
     height: 20px;
     padding: 30px 0;
 }
-.copyrights
-{
+
+.copyrights {
     color: white;
     padding: 25px 0;
-    
+
 
 }
-.Companystyle
-{
+
+.Companystyle {
     color: white;
     font-weight: bold;
 }
-.Companystyles
-{
+
+.Companystyles {
     color: white;
     font-size: small;
     padding: 30px 0px;
+
+
 
 }
 
 
 .footer-wrapper {
-    
+
     display: flex;
     justify-content: space-between;
 }

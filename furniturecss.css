@@ -1,0 +1,28 @@
+.image-wrapper
+{
+    display: flex;
+    column-gap: 30%;
+}
+.first-page .first-image
+{
+    background-color: aquamarine;
+    height: 300px;
+    width:500px;
+    text-align: center;
+    
+}
+
+.first-wrapper
+{
+ display: flex;
+}
+ .pra
+{
+    font-size:x-large;
+    color: white;
+}
+.pra1
+{
+    font-size: large;
+    color: white;
+}
